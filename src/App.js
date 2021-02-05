@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import {Router} from 'react-router-dom'
+import history from '../src/history'
+import Navbar from '../src/Components/Navbar';
+import ContentWrapper from './Components/ContentWrapper'
+import './App.scss'
+
 
 function App() {
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="App">
+     <Router history={history}>
+     <Navbar/>
+     <ContentWrapper/>
+     </Router>
     </div>
   );
 }
 
 export default App;
+ 
