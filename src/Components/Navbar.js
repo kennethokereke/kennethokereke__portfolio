@@ -18,9 +18,7 @@ class Navbar extends Component {
        classStr = classStr.concat("smallNav");
     }
 
-    if (['/photography'].includes(this.props.location.pathname)) {
-       classStr = classStr.concat(" darkNav");
-    }
+    
 
     return classStr;
  }
