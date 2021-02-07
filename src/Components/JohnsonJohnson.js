@@ -23,7 +23,7 @@ class Johnson extends React.Component {
              
 
              
-             <TopBanner image={JohnsonHeader} bgColor="#0081F8" arrowColor="#151715"/>
+             <TopBanner  bgColor="red" arrowColor="#151715" />
              <div className="section">
                <div className="sectionContent">
                  <h2>Overview</h2>

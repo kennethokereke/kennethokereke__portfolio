@@ -1,6 +1,6 @@
 import React ,{Component} from 'react'
-import {NavLink} from 'react-router-dom'
-import {withRouter } from 'react-router'
+import {NavLink, BrowserRouter } from 'react-router-dom'
+import { withRouter } from 'react-router'
 
 import '../Stylesheet/Navbar.scss'
 
@@ -11,10 +11,10 @@ class Navbar extends Component {
 
    }
 
-   getNavbarClass = () => {
+   getNavbarClass () {
     var classStr = "";
 
-    if (!['/', '/contact', '/resume'].includes(this.props.location.pathname)) {
+    if (!['/',  '/resume'].includes(this.props.location.pathname)) {
        classStr = classStr.concat("smallNav");
     }
 

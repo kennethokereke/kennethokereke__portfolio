@@ -7,11 +7,13 @@ import { ReactComponent as BackArrow} from "../Images/backArrow.svg";
 
 class TopBanner extends Component {
    render(props) {
-      const { bgColor, image, arrowColor } = this.props;
+      const { bgColor, image, arrowColor, imageHeight, imageWidth } = this.props;
 
       var style = {
          backgroundColor: bgColor,
          backgroundImage: `url(${image})`,
+         width: imageWidth,
+         height: imageHeight
     
 
       };
