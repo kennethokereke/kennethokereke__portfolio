@@ -8,14 +8,14 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import Resume from './Resume';
 
 import Portfolio from './Portfolio';
-
-import johnsonjohnson from './JohnsonJohnson';
+import Aetna from './aetna'
 import lululemon from './Lululemon';
 import sweeper from './Sweeper';
 import Covid19App from './Covid19app'
-import Tedx from './Tedx'
+
 import Snapchat from './Snapchat'
 import Powermusic from './Powermusic'
+import Lipigment from './lipigment'
 
 
 
@@ -49,13 +49,14 @@ class ContentWrapper extends React.Component {
                         <Switch location={this.props.location}>
                            <Route exact path="/" component={Portfolio} />
                            <Route path="/resume" component={Resume} />
-                           <Route path="/johnson" component={johnsonjohnson} />
+                           <Route path="/aetna" component={Aetna} />
                            <Route path="/lululemon" component={lululemon} />
                            <Route path="/sweepr" component={sweeper} />
                            <Route path="/powermusic" component={Powermusic} />
                            <Route path="/CovidCoop" component={Covid19App} />
                            <Route path="/snapchat" component={Snapchat} />
-                           <Route path="/Tedx" component={Tedx} />
+                           <Route path="/lipigment" component={Lipigment} />
+                         
                            
                         </Switch>
                      </section>

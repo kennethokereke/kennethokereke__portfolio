@@ -68,4 +68,44 @@
            }
         }
     }
+    
+
+  }
+
+  .sectionme {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e7e9eb;
+  }
+
+  .sectionContents {
+   padding: 52px 150px 68px 150px;
+   margin: auto;
+   max-width: 900px;
+
+  }
+
+  .bg-yellow {
+    background-color: rgba(250,240,137,var(--bg-opacity)); ;
+  }
+
+  .linkrel {
+   transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+   transition-duration: .3s;
+  }
+
+  .section3 {
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #1d1e21;
+
+
+  }
+
+  .sectionContent3 {
+   padding: 52px 150px 68px 150px;
+   margin: auto;
+   max-width: 900px;
+
+
   }

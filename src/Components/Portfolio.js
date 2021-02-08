@@ -4,30 +4,31 @@ import Card from './Card'
 import FilterBar from './FilterBar'
 import { ReactComponent as Heart } from '../Images/portfolio/heart.svg'
 import { ReactComponent as ReactIcon } from '../Images/portfolio/React-icon.svg'
-import Johnson from '../Images/JohnsonJohnson/johnson-johnson.svg'
+import Aetna from '../Images/Aetna/aetna-logo.svg'
 import Lululemon from '../Images/lululemon/lululemon-logo.svg'
 import Sweepr from '../Images/Sweeper/sweepr-logo.png'
 import Covid19App from '../Images/Covid19App/iconlogo.png'
 import Snapchat from '../Images/snapchat/snaplogo.png'
 import Powermoves from '../Images/powermoves/music.png'
 import Tedx from '../Images/Tedx/tedx-logo.png'
+import lipigment from '../Images/lipigment/lipigmentlogo.png'
 
 import '../Stylesheet/portfolio.scss'
 
 
 const projects = [
    {
-      id: "johnson",
-      title: 'Johnson & Johnson',
+      id: "aetna",
+      title: 'Aetna',
       description: "My work as a UI/UX Design Intern",
-      color: "#a30303",
+      color: "#9D27DC",
       type: "Work",
-     logo: Johnson
+     logo: Aetna
    },
    {
       id: "lululemon",
       title: 'Lululemon',
-      description: "My work as a UX Designer & Mobile Developer",
+      description: "My work as a UX Designer",
       color: "#d41515",
       type: "Work",
       logo: Lululemon
@@ -53,8 +54,8 @@ const projects = [
    },
    {
       id: "Covid19App",
-      title: 'Covid19-App',
-      description: "Designed and programmed using React Native",
+      title: 'CovidCoop',
+      description: "Designed and programmed using React.js",
       color: "#0b6ce3",
       type: "Work",
       logo: Covid19App,
@@ -63,21 +64,22 @@ const projects = [
    {
     id: "powermoves",
     title: 'Powermoves',
-    description: "personal project I made",
+    description: "a personal project I designed and built using React.js",
     color: "#423F3F",
     type: "Project",
     logo: Powermoves,
   //   link: "https://dribbble.com/spoorthyv"
  },
  {
-    id: "tedx",
-    title: 'Tedx',
-    description: "My work as a UI/UX Designer",
-    color: "#a30303",
-    type: "Work",
-    logo: Tedx,
-  //   link: "https://dribbble.com/spoorthyv"
- }
+   id: "lipigment",
+   title: 'Lipigment',
+   description: "As a Front end developer I designed and built their application in react.js",
+   color: "#656565 ",
+   type: "Work",
+   logo: lipigment,
+ //   link: "https://dribbble.com/spoorthyv"
+},
+
 ];
 
 class Portfolio extends React.Component {
