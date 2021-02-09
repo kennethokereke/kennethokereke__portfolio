@@ -43,7 +43,7 @@ class Lululemon extends React.Component {
                  </p>
                  <h4>Step 1A: Internal Research</h4>
                  <div id="lightbulbBanner">
-                   <img src={lightBulb}/>
+                   <img className="bigImage" src={lightBulb}/>
                    <p>
                      For me, understanding the current state of your own product is the
                      most important step to designing a pattern that scales across every
@@ -74,13 +74,13 @@ class Lululemon extends React.Component {
                    using the slide deck below:
                  </p>
                  {/* the deck below */}
-                 <a
+                 <a className="d2button"
                    id="dlButton"
                    href="https://docs.google.com/presentation/d/1XJZuMjVv4DdViZdE-ye7nTdZLT1YTYIO6qy0q1ZyRFA/edit?usp=sharing"
                    target="_blank"
                  >
                    View Research Presentation
-                   <img src={rightArrow} />
+                   <img className="bigImage" src={rightArrow} />
                  </a>
                  <h4>Step 2: Design Exploration</h4>
                  <p>

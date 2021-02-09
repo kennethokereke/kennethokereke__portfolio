@@ -36,7 +36,7 @@ class Aetna extends Component{
                <div className="sectionContent">
          
              <h3>Aetna Health - Colorectal Cancer application</h3>
-                  <img style={{width: 500 }} src={AetnaIntro} />
+                  <img className="aetna_imageSize" src={AetnaIntro} />
 
                 <p>
                 Colorectal cancer is the second leading cause of deaths from cancer in the US. 
@@ -152,7 +152,7 @@ class Aetna extends Component{
 
                       <div>
                         <h4>Colorectal Cancer Rates for Combined Sexes</h4>
-                        <img className="graph" src={AetnaData}/>
+                        <img className="aetna_imageSize" src={AetnaData}/>
                       </div>
 
                     </div>
@@ -201,7 +201,7 @@ class Aetna extends Component{
                          whiteboard so we could get ideas and thoughts out of our minds. 
                          Here's a picture of our brain map, cleaned up a little bit for readability:</p>
                          
-                         <img src={AetnaMap} />
+                         <img className="aetna_imageSize" src={AetnaMap} />
 
                          <div className="Applicants">
                            <div>
@@ -232,7 +232,7 @@ class Aetna extends Component{
                            </div>
 
                            <div>
-                             <img className="graphpic" src={AetnaGraph} />
+                             <img className="aetna_imageSize" src={AetnaGraph} />
                            </div>
 
 
@@ -275,7 +275,7 @@ class Aetna extends Component{
                             </div>
 
                             <div style={{display: 'flex', justifyContent: 'flex-end'}}>
-                              <img className="aetna-flow" src={AetnaFlow}/>
+                              <img className="aetna_imageSize" src={AetnaFlow}/>
 
                             </div>
                            </div>
@@ -293,7 +293,7 @@ class Aetna extends Component{
                                </ul>
                                <p>Notification design:</p>
 
-                               <img className="images" src={CoraNotification}/>
+                               <img className="aetna_imageSize" src={CoraNotification}/>
 
                               <p>Next Step:</p>
                               <ul>
@@ -314,7 +314,7 @@ class Aetna extends Component{
                                </ul>
                                <p>Notification design:</p>
 
-                               <img className="images" src={AetnaNotification}/>
+                               <img className="aetna_imageSize" src={AetnaNotification}/>
 
                               <p>Next Step:</p>
                               <ul>
@@ -355,7 +355,7 @@ class Aetna extends Component{
                             split between two different containers.
                            </p>
 
-                           <img src={ Aetnafinish}/>
+                           <img className="aetna_imageSize" src={ Aetnafinish}/>
 
 
                       

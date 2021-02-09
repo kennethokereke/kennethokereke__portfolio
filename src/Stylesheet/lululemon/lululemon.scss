@@ -37,7 +37,7 @@
         margin-top: 8px;
         border-radius: 5px;
       }
-      .innerWrapper #ebayFooter img {
+      .innerWrapper #ebayFooter img  {
           min-width: 32px;
           padding: 0 20px 0 24px;
           transform: translateY(-4px);
@@ -94,11 +94,26 @@
         box-shadow: 0px 6px 26px #ffffff00;
         border: none;
       }
-      .innerWrapper img {
-          width: 16px;
+      .innerWrapper .bigImage {
+          width: 12px;
           border: none;
           margin-left: 12px;
           transform: translateY(1px);
+        }
+
+        .innerWrapper img {
+          width: 100%;
+          border: none;
+          margin-left: 12px;
+          transform: translateY(1px);
+        }
+
+        .innerWrapper .aetna_imageSize {
+          width: 63%;
+          border: none;
+          margin-left: 12px;
+          transform: translateY(1px);
+
         }
      
         .innerWrapper #dlButton:hover {
@@ -169,6 +184,20 @@
         .ebay  .innerWrapper   #lightbulbBanner  p {
           padding: 16px 24px;
         }
+
+        .innerWrapper .bigImage {
+          width: 5%;
+          border: none;
+          margin-left: 12px;
+          transform: translateY(1px);
+        }
+
+        .innerWrapper #dlButton {
+          font-size: 12px;
+         }
+
+
+
       }
    
  
@@ -177,4 +206,18 @@
   .ebay .innerWrapper #proconChart {
         padding: 20px 28px;
       }
+
+      .innerWrapper .bigImage {
+        
+        width: 16px;
+        border: none;
+        margin-left: 12px;
+        transform: translateY(1px);
+      }
+
+      .innerWrapper #dlButton {
+        font-size: 12px;
+       }
    }
+
+   
