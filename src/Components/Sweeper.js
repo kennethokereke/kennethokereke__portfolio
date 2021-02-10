@@ -90,8 +90,8 @@ class Sweepr extends Component {
                </div>
              </div>
 
-             <div className="sectionme">
-                     <div className="sectionContents">
+             <div className="section">
+                     <div className="sectionContent">
 
                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center' , padding: 20}}>
                      <h4>Problem</h4>
@@ -155,8 +155,8 @@ class Sweepr extends Component {
                </div>
                
              </div>
-             <div className="sectionme">
-                     <div className="sectionContents">
+             <div className="section" >
+                     <div className="sectionContent">
                        <h4 style={{textAlign: 'center'}}>Building a colour palette</h4>
                        <p>Before creating our palette, we first had to determine
                           the colours that we wanted to support, such as:</p>
@@ -191,8 +191,8 @@ class Sweepr extends Component {
                        </div>
                        </div>
 
-                       <div className="section3">
-                     <div className="sectionContent3">
+                       <div className="section" style={{backgroundColor: '#1d1e21'}}>
+                     <div className="sectionContent">
                        <h4 style={{color: 'white', textAlign: 'center'}}>
                        Creating components
                        </h4>
@@ -262,13 +262,13 @@ class Sweepr extends Component {
 
                </div>
              </div>
-             <div className="sectionme">
-                     <div className="sectionContents">
+             <div className="section" style={{ backgroundColor: '#f8f8f8'}}>
+                     <div className="sectionContent">
                      <h4 style={{textAlign: 'center'}}>Using the design system in the wild</h4>
                  <p style={{textAlign: 'center', fontWeight: 300, fontSize: 15}}>The first product I started to work on after we had 
                    created the design system was the <span className="bg-yellow">Interaction Editor</span>.</p>
                   
-                   <img className="sweeperimages" src={SweeperPreview}/>
+                   <img className="sweeperimage1" src={SweeperPreview}/>
 
 
                      <div style={{marginBottom: 30}} className="horizGallery">
@@ -289,8 +289,8 @@ class Sweepr extends Component {
                        </div>
                        </div>
 
-             <div className="section3">
-               <div className="sectionContent3">
+             <div className="section" style={{backgroundColor: '#1d1e21'}}>
+               <div className="sectionContent">
                  <h4 style={{color: 'white', textAlign: 'center'}}>In Conclusion</h4>
                  <p style={{color: 'white'}} >Creating our design system had a large impact on the overall company.
                     It allowed us to create new products and features more efficiently and

@@ -8,6 +8,7 @@ import mehIcon from "../Images/JohnsonJohnson/mehIcon.svg";
 import goodIcon from "../Images/JohnsonJohnson/goodIcon.svg";
 import badIcon from "../Images/JohnsonJohnson/badIcon.svg";
 // import fullProto from "../files/SSFFullProto.mp4";
+import LuluVideo from '../Images/lululemon/luluvid.mov'
 import JohnsonHeader from '../Images/JohnsonJohnson/johnson-johnson.svg';
 
 import '../Stylesheet/lululemon/lululemon.scss'
@@ -76,7 +77,7 @@ class Lululemon extends React.Component {
                  {/* the deck below */}
                  <a className="d2button"
                    id="dlButton"
-                   href="https://docs.google.com/presentation/d/1XJZuMjVv4DdViZdE-ye7nTdZLT1YTYIO6qy0q1ZyRFA/edit?usp=sharing"
+                   href="https://docs.google.com/presentation/d/1WzVQ3rLv8zyKRdHNIECKFwH6mWmrP3LCtodoreXk50k/edit?usp=sharing"
                    target="_blank"
                  >
                    View Research Presentation
@@ -158,7 +159,7 @@ class Lululemon extends React.Component {
                      </p>
                    </div>
                    <div className="col">
-                     {/* <video
+                     <video
                        id="ebayPrototype"
                        className="video"
                        autoPlay
@@ -166,9 +167,9 @@ class Lululemon extends React.Component {
                        playsInline
                        muted
                      >
-                       <source src={fullProto} type="video/mp4" />
+                       <source src={LuluVideo} type="video/mp4" />
                        Your browser does not support videos :(
-                     </video> */}
+                     </video>
                    </div>
                  </div>
                </div>

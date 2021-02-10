@@ -4,8 +4,10 @@ class FilterBar extends React.Component {
    render(props) {
       return (
          <div id="filterBar">
-            <div className={(this.props.currFilter == "Work") ? 'filter selected' : 'filter'} onClick={() => this.props.clickHandler("Work")}>Work</div>
-            <div className={(this.props.currFilter == "Project") ? 'filter selected' : 'filter'} onClick={() => this.props.clickHandler("Project")}>Projects</div>
+            <div className={(this.props.currFilter == "UI/UX Design") ? 'filter selected' : 'filter'} onClick={() => this.props.clickHandler("UI/UX Design")}>UI/UX Design Work</div>
+            <div className={(this.props.currFilter == "Front End Development") ? 'filter selected' : 'filter'} onClick={() => this.props.clickHandler("Front End Development")}>Front End Development</div>
+            <div className={(this.props.currFilter == "Personal Projects") ? 'filter selected' : 'filter'} onClick={() => this.props.clickHandler("Personal Projects")}>Personal Projects</div>
+           
            
          </div>
       );
