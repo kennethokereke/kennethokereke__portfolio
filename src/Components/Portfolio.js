@@ -23,7 +23,7 @@ const projects = [
       title: 'Lululemon',
       description: "My work as a UX Designer",
       color: "#d41515",
-      type: "UI/UX Design",
+      type: "UI/UX Internships",
       logo: Lululemon
 
    },
@@ -41,7 +41,7 @@ const projects = [
       title: 'Sweepr',
       description: "My work as a UI/UX Designer ",
       color: "#FF9445",
-      type: "UI/UX Design",
+      type: "Third Prism Studios",
       logo: Sweepr
     
    },
@@ -50,7 +50,7 @@ const projects = [
       title: 'Aetna',
       description: "My work as a UI/UX Design Intern",
       color: "#9D27DC",
-      type: "UI/UX Design",
+      type: "UI/UX Internships",
      logo: Aetna
    },
    {
@@ -58,7 +58,7 @@ const projects = [
       title: 'CovidCoop',
       description: "Designed and programmed using React.js",
       color: "#0b6ce3",
-      type: "Front End Development",
+      type: "Third Prism Studios",
       logo: Covid19App,
     //   link: "https://dribbble.com/spoorthyv"
    },
@@ -76,7 +76,7 @@ const projects = [
    title: 'Lipigment',
    description: "As a Front end developer I designed and built their application in react.js",
    color: "#656565 ",
-   type: "Front End Development",
+   type: "Third Prism Studios",
    logo: lipigment,
  //   link: "https://dribbble.com/spoorthyv"
 },

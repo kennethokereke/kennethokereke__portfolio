@@ -23,6 +23,8 @@ import AetnaFlow from '../Images/Aetna/aetna-flow.jpg'
 import CoraNotification from '../Images/Aetna/Cora_Notification.png'
 import AetnaNotification from '../Images/Aetna/aetna-notification.png'
 import Aetnafinish from '../Images/Aetna/Aetna-Health.png'
+import Aetnapics from '../Images/Aetna/Stevenblack.png'
+import Aetnapics1 from '../Images/Aetna/Bridgetkearn.png'
 
 import '../Stylesheet/Aetna/aetna.scss';
 
@@ -48,14 +50,14 @@ class Aetna extends Component{
                   <div>
                   <h4>My Role</h4>
                   <p>
-                    UI design Intern
+                    UX design Intern
                   </p>
 
                   </div>
                 
                    <div>
                    <h4>Timeline</h4>
-                  <p>June 2015 - August 2015</p>
+                  <p>June 2014 - August 2014</p>
 
                    </div>
                   <div>
@@ -93,7 +95,7 @@ class Aetna extends Component{
                
                   <h4>The Overview</h4>
                   <p>
-                  I joined Aetna Digital's design team as a UI design intern as the team worked to add new
+                  I joined Aetna Digital's design team as a UX design intern as the team worked to add new
                    features to the Aetna Health application. It was an incredible opportunity — taking
                     the complexities of health insurance and creating a user-friendly application is no 
                     easy task. The design team referred to itself as team MISL: Make Insurance Suck Less.
@@ -235,6 +237,14 @@ class Aetna extends Component{
                              <img className="aetna_imageSize" src={AetnaGraph} />
                            </div>
 
+                           <h4>Personas</h4>
+                           <p>we created persona who can be accurately represent our users with the problem statement.</p>
+                           <div>
+                             <img className="aetna_imageSize" src={Aetnapics} />
+                           </div>
+                           <div>
+                             <img className="aetna_imageSize" src={Aetnapics1} />
+                           </div>
 
                          </div>
 
