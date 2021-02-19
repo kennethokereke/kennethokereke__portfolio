@@ -7,11 +7,15 @@ import { ReactComponent as ReactIcon } from '../Images/portfolio/React-icon.svg'
 import Aetna from '../Images/Aetna/aetna-logo.svg'
 import Lululemon from '../Images/lululemon/lululemon-logo.svg'
 import Sweepr from '../Images/Sweeper/sweepr-logo.png'
-import Covid19App from '../Images/Covid19App/iconlogo.png'
+
 import Snapchat from '../Images/snapchat/snaplogo.png'
-import Powermoves from '../Images/powermoves/music.png'
-import Tedx from '../Images/Tedx/tedx-logo.png'
-import lipigment from '../Images/lipigment/lipigmentlogo.png'
+import JukeDeck from '../Images/jukedeck/JukeDeck.png'
+import Coachme from '../Images/coachme/coachemelogo.png'
+import Linkedin from '../Images/Linkedin/linkedinlogo.png'
+
+
+
+
 
 import '../Stylesheet/portfolio.scss'
 
@@ -21,12 +25,48 @@ const projects = [
    {
       id: "lululemon",
       title: 'Lululemon',
-      description: "My work as a UX Designer",
+      description: "makes technical athletic clothes for yoga, running, working out, and most other sweaty pursuits.",
       color: "#d41515",
-      type: "UI/UX Internships",
+      type: "Work",
       logo: Lululemon
 
    },
+
+   {
+      id: "aetna",
+      title: 'Aetna',
+      description: "My work as a UI/UX Design Intern",
+      color: "#9D27DC",
+      type: "Work",
+     logo: Aetna
+   },
+   {
+      id: "jukedeck",
+      title: 'JukeDeck',
+      description: "Musical Artifical Intelligence",
+      color: "#3999d8",
+      type: "Work",
+      logo: JukeDeck,
+    //   link: "https://dribbble.com/spoorthyv"
+   },
+   {
+     id: "coachme",
+     title: 'Coach.me',
+     description: " offers set of courses that help fitness coaches get more clients and leads.",
+     color: "#06749e ",
+     type: "Work",
+     logo: Coachme,
+   //   link: "https://dribbble.com/spoorthyv"
+  },
+  {
+   id: "sweepr",
+   title: 'Sweepr',
+   description: "My work as a UI/UX Designer ",
+   color: "#FF9445",
+   type: "Work",
+   logo: Sweepr
+ 
+},
    {
       id: "snapchat",
       title: 'Snapchat',
@@ -36,50 +76,17 @@ const projects = [
       logo: Snapchat
   
    },
+   
    {
-      id: "sweepr",
-      title: 'Sweepr',
-      description: "My work as a UI/UX Designer ",
-      color: "#FF9445",
-      type: "Third Prism Studios",
-      logo: Sweepr
-    
-   },
-   {
-      id: "aetna",
-      title: 'Aetna',
-      description: "My work as a UI/UX Design Intern",
-      color: "#9D27DC",
-      type: "UI/UX Internships",
-     logo: Aetna
-   },
-   {
-      id: "Covid19App",
-      title: 'CovidCoop',
+      id: "linkedIn",
+      title: 'Linkedin Clone',
       description: "Designed and programmed using React.js",
-      color: "#0b6ce3",
-      type: "Third Prism Studios",
-      logo: Covid19App,
+      color: "#0d86b5",
+      type: "Personal Projects",
+      logo: Linkedin,
     //   link: "https://dribbble.com/spoorthyv"
    },
-   {
-    id: "powermoves",
-    title: 'Powermoves',
-    description: "a personal project I designed and built using React.js",
-    color: "#423F3F",
-    type: "Personal Projects",
-    logo: Powermoves,
-  //   link: "https://dribbble.com/spoorthyv"
- },
- {
-   id: "lipigment",
-   title: 'Lipigment',
-   description: "As a Front end developer I designed and built their application in react.js",
-   color: "#656565 ",
-   type: "Third Prism Studios",
-   logo: lipigment,
- //   link: "https://dribbble.com/spoorthyv"
-},
+   
 
 ];
 

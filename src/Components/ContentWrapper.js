@@ -11,11 +11,13 @@ import Portfolio from './Portfolio';
 import Aetna from './aetna'
 import lululemon from './Lululemon';
 import sweeper from './Sweeper';
-import Covid19App from './Covid19app'
+
 
 import Snapchat from './Snapchat'
-import Powermusic from './Powermusic'
-import Lipigment from './lipigment'
+
+import JukeDeck from './JukeDeck'
+import Linkedin from './Linkedin'
+import Coachme from './Coachme'
 
 
 
@@ -52,10 +54,12 @@ class ContentWrapper extends React.Component {
                            <Route path="/aetna" component={Aetna} />
                            <Route path="/lululemon" component={lululemon} />
                            <Route path="/sweepr" component={sweeper} />
-                           <Route path="/powermusic" component={Powermusic} />
-                           <Route path="/CovidCoop" component={Covid19App} />
+                           <Route path="/jukedeck" component={JukeDeck} />
+                           <Route path="/linkedin" component={Linkedin} />
+                           <Route path="/coachme" component={Coachme} />
+                           
                            <Route path="/snapchat" component={Snapchat} />
-                           <Route path="/lipigment" component={Lipigment} />
+                          
                          
                            
                         </Switch>
