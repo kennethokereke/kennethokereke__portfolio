@@ -16,7 +16,7 @@ import sweeper from './Sweeper';
 import Snapchat from './Snapchat'
 
 import JukeDeck from './JukeDeck'
-import Linkedin from './Linkedin'
+
 import Coachme from './Coachme'
 
 
@@ -55,10 +55,10 @@ class ContentWrapper extends React.Component {
                            <Route path="/lululemon" component={lululemon} />
                            <Route path="/sweepr" component={sweeper} />
                            <Route path="/jukedeck" component={JukeDeck} />
-                           <Route path="/linkedin" component={Linkedin} />
+                        
                            <Route path="/coachme" component={Coachme} />
                            
-                           <Route path="/snapchat" component={Snapchat} />
+                          
                           
                          
                            

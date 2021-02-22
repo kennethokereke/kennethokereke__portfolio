@@ -8,10 +8,10 @@ import Aetna from '../Images/Aetna/aetna-logo.svg'
 import Lululemon from '../Images/lululemon/lululemon-logo.svg'
 import Sweepr from '../Images/Sweeper/sweepr-logo.png'
 
-import Snapchat from '../Images/snapchat/snaplogo.png'
+
 import JukeDeck from '../Images/jukedeck/JukeDeck.png'
 import Coachme from '../Images/coachme/coachemelogo.png'
-import Linkedin from '../Images/Linkedin/linkedinlogo.png'
+
 
 
 
@@ -21,6 +21,35 @@ import '../Stylesheet/portfolio.scss'
 
 
 const projects = [
+   {
+      id: "jukedeck",
+      title: 'JukeDeck',
+      description: "Musical Artifical Intelligence",
+      color: "#3999d8",
+      type: "Work",
+      logo: JukeDeck,
+    //   link: "https://dribbble.com/spoorthyv"
+   },
+   {
+     id: "coachme",
+     title: 'Coach.me',
+     description: " offers set of courses that help fitness coaches get more clients and leads.",
+     color: "#06749e ",
+     type: "Work",
+     logo: Coachme,
+   //   link: "https://dribbble.com/spoorthyv"
+  },
+
+    
+  {
+   id: "sweepr",
+   title: 'Sweepr',
+   description: "My work as a UI/UX Designer ",
+   color: "#FF9445",
+   type: "Work",
+   logo: Sweepr
+ 
+},
   
    {
       id: "lululemon",
@@ -40,52 +69,10 @@ const projects = [
       type: "Work",
      logo: Aetna
    },
-   {
-      id: "jukedeck",
-      title: 'JukeDeck',
-      description: "Musical Artifical Intelligence",
-      color: "#3999d8",
-      type: "Work",
-      logo: JukeDeck,
-    //   link: "https://dribbble.com/spoorthyv"
-   },
-   {
-     id: "coachme",
-     title: 'Coach.me',
-     description: " offers set of courses that help fitness coaches get more clients and leads.",
-     color: "#06749e ",
-     type: "Work",
-     logo: Coachme,
-   //   link: "https://dribbble.com/spoorthyv"
-  },
-  {
-   id: "sweepr",
-   title: 'Sweepr',
-   description: "My work as a UI/UX Designer ",
-   color: "#FF9445",
-   type: "Work",
-   logo: Sweepr
- 
-},
-   {
-      id: "snapchat",
-      title: 'Snapchat',
-      description: "A personal project I made",
-      color: "#0A2F3C",
-      type: "Personal Projects",
-      logo: Snapchat
+
   
-   },
    
-   {
-      id: "linkedIn",
-      title: 'Linkedin Clone',
-      description: "Designed and programmed using React.js",
-      color: "#0d86b5",
-      type: "Personal Projects",
-      logo: Linkedin,
-    //   link: "https://dribbble.com/spoorthyv"
-   },
+   
    
 
 ];
