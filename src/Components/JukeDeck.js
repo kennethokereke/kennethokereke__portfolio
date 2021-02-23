@@ -46,6 +46,7 @@ class JukeDeck extends Component {
       return (
          <div className="JukeDeck">
             <div className="innerWrapper1">
+            <TopBanner bgColor="#bff2e2"  arrowColor="#151715"/>
            
              <div className="section1">
                <div className="sectionContent1">

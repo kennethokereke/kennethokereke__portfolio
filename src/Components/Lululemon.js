@@ -24,7 +24,7 @@ class Lululemon extends React.Component {
              
 
              
-             <TopBanner  bgColor="red" arrowColor="#151715" />
+             <TopBanner arrowColor="#151715" />
              <div className="section">
                <div className="sectionContent">
                  <h2>Overview</h2>

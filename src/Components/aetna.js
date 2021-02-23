@@ -33,7 +33,7 @@ class Aetna extends Component{
       return (
          <div className="jupyter">
             <div className="innerWrapper">
-             <TopBanner image={AetnaHeader} bgColor="#FF9445" arrowColor="#fff4ec"/>
+             <TopBanner  arrowColor="#151715"/>
              <div className="section">
                <div className="sectionContent">
          
