@@ -76,12 +76,12 @@
   }
 
   .aetna-imageSize {
-      width: 500px
+      width: 100% !important;
   }
 
   @media screen and (max-width: $breakSmall) {
       .aetna-imageSize {
-          width: 400px;
+          width: 100%;
       }
   }
   

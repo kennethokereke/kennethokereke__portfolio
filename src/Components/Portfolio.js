@@ -110,7 +110,7 @@ class Portfolio extends React.Component {
                </div>
             </div>
             <div id="footer">
-               <a href="https://github.com/spoorthyv/spoorthyv.github.io" target="_blank">
+               <a href="https://github.com/kennethokereke/kennethokereke__portfolio" target="_blank">
                   <h4>This site was built with <Heart id="heartIcon"/> from scratch using <ReactIcon id='reactIcon'/></h4>
                </a>
             </div>
